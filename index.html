@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rajeev Natu — Computer Science Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#hero" class="brand">
+      <span class="brand-init">RN</span>
+      <span class="brand-name">Rajeev Natu</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <!-- <a href="#projects">Work</a> -->
+      <!-- <a href="#experience">Experience</a> -->
+      <a href="#education">Education</a>
+      <a href="#contact" class="contact-pill">Contact</a>
+    </nav>
+
+    <div class="nav-controls">
+      <button id="themeToggle" class="theme-switch" aria-label="Toggle Theme">
+        <span class="theme-icon"></span>
+      </button>
+      <button id="menuToggle" class="menu-btn" aria-label="Toggle Navigation">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-container">
+        <div class="hero-badge">Sophomore B.Tech CSE</div>
+        <h1 class="hero-heading">
+          Hi, I'm <span class="accent-text">Rajeev Natu</span><br>
+          <!-- Building software with focus, and structural precision. -->
+        </h1>
+        <p class="hero-sub">
+          Computer Science & Engineering student focused on core data structures, web infrastructure, and clean interface systems.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">Selected Projects ↓</a>
+          <a href="#contact" class="btn-ghost">Get in Touch ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-grid">
+          <div class="section-label">
+            <h2>01 / ABOUT</h2>
+          </div>
+          <div class="section-content">
+            <p class="about-lead">
+              Currently in my second year of Computer Science & Engineering, Spending my time practicing algorithmic efficiency in C++/Java, learning and understanding new concepts and building projects for an in-depth understanding of the subject.
+            </p>
+            <p class="about-body">
+              When I’m not studying computer science fundamentals, I follow my hobbies of learning new spoken languages, exercising, playing and watching movies/TV shows
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-grid">
+          <div class="section-label">
+            <h2>02 / SKILLS</h2>
+          </div>
+          <div class="section-content">
+            <div class="skills-block-grid">
+              
+              <div class="skill-card">
+                <h3>Languages</h3>
+                <div class="skill-chips">
+                  <span>C</span>
+                  <span>C++</span>
+                  <span>Java</span>
+                  <!-- <span>Python</span>
+                  <span>JavaScript</span>
+                  <span>HTML/CSS</span> -->
+                </div>
+              </div>
+
+              <!-- <div class="skill-card">
+                <h3>Web Development</h3>
+                <div class="skill-chips">
+                  <span>React.js</span>
+                  <span>Node.js</span>
+                  <span>Express.js</span>
+                  <span>REST APIs</span>
+                  <span>Tailwind CSS</span>
+                </div>
+              </div> -->
+
+              <div class="skill-card">
+                <h3>Tools & Databases</h3>
+                <div class="skill-chips">
+                  <span>Git & GitHub</span>
+                  <span>MySQL</span>
+                  <!-- <span>MongoDB</span>
+                  <span>Linux</span> -->
+                  <span>VS Code</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="projects" class="section">
+      <div class="container">
+        <div class="section-grid">
+          <div class="section-label">
+            <h2>03 / WORK</h2>
+          </div>
+          <div class="section-content">
+            <div class="project-stack">
+              
+              <article class="project-item">
+                <div class="project-header">
+                  <h3>Algorithmic Path Visualizer</h3>
+                  <a href="#" target="_blank" class="project-link">Source Code ↗</a>
+                </div>
+                <p>An interactive tool mapping graph traversal algorithms like Dijkstra's and A* with customizable obstacles and step-by-step path rendering.</p>
+                <div class="project-meta">
+                  <span>JavaScript</span>
+                  <span>HTML5 Canvas</span>
+                  <span>DSA</span>
+                </div>
+              </article>
+
+              <article class="project-item">
+                <div class="project-header">
+                  <h3>Campus Resource Portal</h3>
+                  <a href="#" target="_blank" class="project-link">Source Code ↗</a>
+                </div>
+                <p>Full-stack digital repository designed for students to organize, share, and query lecture notes and lab resources.</p>
+                <div class="project-meta">
+                  <span>Node.js</span>
+                  <span>Express</span>
+                  <span>MongoDB</span>
+                </div>
+              </article>
+
+              <article class="project-item">
+                <div class="project-header">
+                  <h3>Minimalist Portfolio Website</h3>
+                  <a href="#" target="_blank" class="project-link">Source Code ↗</a>
+                </div>
+                <p>An architectural modern portfolio website designed with semantic HTML, modular CSS custom variables, and clean theme switching.</p>
+                <div class="project-meta">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>JavaScript</span>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section id="experience" class="section">
+      <div class="container">
+        <div class="section-grid">
+          <div class="section-label">
+            <h2>04 / TIMELINE</h2>
+          </div>
+          <div class="section-content">
+            <div class="exp-list">
+              
+              <div class="exp-card">
+                <div class="exp-header">
+                  <h3>Technical Team Member</h3>
+                  <span class="exp-period">2025 — Present</span>
+                </div>
+                <p class="exp-org">Coding Club / IEEE Student Branch</p>
+                <p class="exp-desc">Organized technical events, assisted juniors in web basics, and collaborated on student programming projects.</p>
+              </div>
+
+              <div class="exp-card">
+                <div class="exp-header">
+                  <h3>Open Source Contributor</h3>
+                  <span class="exp-period">2025</span>
+                </div>
+                <p class="exp-org">Hacktoberfest & Open Initiatives</p>
+                <p class="exp-desc">Contributed pull requests focused on bug fixes, performance, and documentation updates across community repositories.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-grid">
+          <div class="section-label">
+            <h2>03 / EDUCATION</h2>
+          </div>
+          <div class="section-content">
+            <div class="edu-box">
+              <div class="edu-head">
+                <div>
+                  <h3>B.Tech in Computer Science & Engineering</h3>
+                  <p class="edu-school">Vellore Institute Of Technology, Chennai</p>
+                </div>
+                <span class="edu-date">2025 — 2029 (Expected)</span>
+              </div>
+              <p class="edu-courses">
+                <strong>Core Coursework:</strong> Data Structures & Algorithms, Object-Oriented Programming (C++), Database Management Systems, Operating Systems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-grid">
+          <div class="section-label">
+            <h2>04 / CONTACT</h2>
+          </div>
+          <div class="section-content">
+            <div class="contact-wrap">
+              <h3 class="contact-heading">Let's connect.</h3>
+              <p class="contact-sub">Currently seeking technical internships and project collaborations.</p>
+
+              <div class="contact-cards">
+                <a href="mailto:rajeev.natu@email.com" class="contact-box">
+                  <span class="box-tag">Email</span>
+                  <span class="box-val">rajeevnatu.256@gmail.com</span>
+                </a>
+
+                <!-- <a href="tel:+919876543210" class="contact-box">
+                  <span class="box-tag">Phone / WhatsApp</span>
+                  <span class="box-val">+91 00000 00000</span>
+                </a> -->
+
+                <a href="https://linkedin.com" target="_blank" class="contact-box">
+                  <span class="box-tag">LinkedIn</span>
+                  <span class="box-val">linkedin.com/in/rajeevnatu</span>
+                </a>
+
+                <a href="https://github.com" target="_blank" class="contact-box">
+                  <span class="box-tag">GitHub</span>
+                  <span class="box-val">github.com/rajeevnatu</span>
+                </a>
+
+                <a href="https://leetcode.com/u/rajeevnatu/" target="_blank" class="contact-box">
+                  <span class="box-tag">LeetCode</span>
+                  <span class="box-val">leetcode.com/u/rajeevnatu</span>
+                </a>
+
+                <a href="https://www.codechef.com/users/rajeev_natu" target="_blank" class="contact-box">
+                  <span class="box-tag">CodeChef</span>
+                  <span class="box-val">codechef.com/users/rajeev_natu</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Rajeev Natu</p>
+      <a href="#hero" class="to-top">Back to Top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
